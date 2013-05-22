@@ -6,4 +6,3 @@ Here you'll find experiments in rapid implementation
 
 Sources for exercises are from all over the net.
 Usually credit is given in the respective test/spec files
-each one should be executable
