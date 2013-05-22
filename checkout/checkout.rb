@@ -34,8 +34,11 @@ class Checkout
         rule = find_rule(sku, sku_count, rules_for_sku)
 
         if rule
-          result += rule[1]
-          sku_count -= rule[0]
+          # split out rule into its component parts
+          rule_count, rule_price = rule
+
+          result += rule_price
+          sku_count -= rule_count
         end
       end
     end
